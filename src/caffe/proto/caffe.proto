@@ -425,7 +425,7 @@ message LayerParameter {
 }
 
 message UpsampleParameter {
-  optional int32 scale =1[default=1];
+  optional int32 scale =1[default=2];
 }
 
 // Message that stores parameters used to apply transformation
